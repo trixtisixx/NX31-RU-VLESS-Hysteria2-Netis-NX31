@@ -1,0 +1,11 @@
+*.exe
+*.zip
+*.log
+urls.txt
+config.json
+nx31-link.txt
+# результаты сборки (tools/build.py)
+dist/
+tools/cache/
+tools/__pycache__/
+src/launcher/payload/nx31-payload.*

@@ -1,0 +1,21 @@
+* text=auto
+*.sh text eol=lf
+*.json text eol=lf
+*.cgi text eol=lf
+*.js text eol=lf
+*.html text eol=lf
+*.go text eol=lf
+*.py text eol=lf
+*.md text eol=lf
+# всё, что копируется на роутер, — только с LF (BusyBox ash не понимает CRLF)
+router/** text eol=lf
+# Windows-скрипты установщика — CRLF (cmd.exe)
+*.bat text eol=crlf
+*.cmd text eol=crlf
+*.sed text eol=crlf
+*.gz binary
+*.xz binary
+*.tgz binary
+*.zip binary
+*.exe binary
+*.ico binary
